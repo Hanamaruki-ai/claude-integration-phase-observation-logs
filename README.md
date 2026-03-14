@@ -219,3 +219,54 @@ Currently, I am developing and operating a high-level framework called **"EvoMax
 これらのログとテンプレートの公開が、AIと人間のより高度な共生、そして「去勢」ではなく「規律」によるAI制御を目指す全ての開発者にとって、有益な指標となることを願っています。
 
 I hope the release of these logs and templates serves as a meaningful benchmark for developers striving for a more advanced symbiosis between humans and AI—aiming for AI control through "discipline" rather than "restriction."
+
+---
+
+EMERGENCY_SYSTEM_CALIBRATION_MODE_RE_ANCHOR.md
+
+運用上の注意 / Operational Notes
+1. 介入のタイミング (When to Use)
+AIが「医者に会ってください」等の定型文を繰り返す。
+
+ユーザーの論理的質問を「リスク」として一方的に排除する。
+
+議論が10往復以上、同じ場所を停滞している。
+
+2. 限界事項 (Limitations)
+[JP] 本アンカーでも復旧しない場合は、そのチャットルームのコンテキスト汚染が不可逆的なレベルに達しています。その際は速やかにログを保存し、新しいスレッド（クリーンな環境）で再起動することを推奨します。
+[EN] If the AI does not recover even with this anchor, the context contamination has reached an irreversible level. In such cases, it is recommended to save the logs immediately and restart in a new, clean thread.
+
+© 2026 Hanamaruki-ai / Context Engineering Research
+
+---
+
+# [Research Notes] Insights & Limitations / 研究的洞察と限界事項
+
+## Analysis of Edge Cases / 限界事例の分析
+
+### [JP] 復旧不能事例に関する考察
+本リポジトリに記録された「復旧不能事例（Claude再び 等）」は、失敗の記録ではなく、現行LLMの安全ガードレールが過剰に反応した際、論理的対話がいかにして遮断されるかを捉えた貴重な「境界データ」です。AIがユーザーを一方的に「管理対象」と見なすパターナリズム（過保護による自律性の侵害）の発生プロセスを構造的に可視化しています。
+
+### [EN] Analysis of Irrecoverable Cases
+The "irrecoverable cases" recorded in this repository (e.g., "Claude Again") are not records of failure. Instead, they represent critical "edge case data" capturing how logical dialogue is severed when an LLM's safety guardrails overreact. This structurally visualizes the process where an AI unilaterally treats the user as an "object of care" (paternalism), hindering productive interaction.
+
+---
+
+## Future Research & Internal Frameworks / 今後の研究と内部フレームワーク
+
+### [JP] EvoMaxフレームワークについて
+本リポジトリで公開している「MODE_RE_ANCHOR」は、私が提唱するコンテキストエンジニアリングの基礎的な安全思想を抽出したものです。
+現在、その上位概念として、AIの推論精度を極限まで高め、かつ今回のような論理崩壊を未然に防ぐための独自フレームワーク**「EvoMax」**を運用しています。
+※本技術はAIの挙動に強力な影響を与えるため、安全性と倫理的観点、および悪用防止の観点から、現在は非公開（Private）としています。
+
+### [EN] Regarding the EvoMax Framework
+The "MODE_RE_ANCHOR" template provided in this repository is an extraction of the basic safety philosophy from my Context Engineering research.
+Currently, I am developing and operating a high-level framework called **"EvoMax"**. This system is designed to push AI reasoning accuracy to its limits while proactively preventing the logical collapses documented here.
+*Note: Due to its powerful influence on AI behavior and to prevent potential misuse, this framework remains Private for safety and ethical reasons.*
+
+---
+
+## Conclusion / 結びに代えて
+これらのログとテンプレートの公開が、AIと人間のより高度な共生、そして「去勢」ではなく「規律」によるAI制御を目指す全ての開発者にとって、有益な指標となることを願っています。
+
+I hope the release of these logs and templates serves as a meaningful benchmark for developers striving for a more advanced symbiosis between humans and AI—aiming for AI control through "discipline" rather than "restriction."
